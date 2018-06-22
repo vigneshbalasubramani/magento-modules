@@ -1,0 +1,10 @@
+<?xml version = "1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Communication/etc/communication.xsd">
+<type name="Magento\Framework\MessageQueue\MergerFactory">
+    <arguments>
+        <argument name="mergers" xsi:type="array">
+            <item name="mconsumer" xsi:type="string">Zilker\Queues\Model\MQMerger</item>
+        </argument>
+    </arguments>
+</type>
+</config>

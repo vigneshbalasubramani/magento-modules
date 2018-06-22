@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <type name="Magento\Checkout\Model\Cart">
+        <plugin name="add_to_cart_example_plugin" 
+                type="Zilker\Helloworld\Model\Plugin" 
+                sortOrder="5"/>
+    </type>
+</config>
